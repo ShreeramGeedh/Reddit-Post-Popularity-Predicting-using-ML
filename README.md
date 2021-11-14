@@ -23,8 +23,7 @@ The dataset for this project was created using web scarpping with the help of pr
 * Num_of_comments - no of comments for the post
 * Upvote_ratio - upvote ratio of the post
 * Score - total score (upvotes - downvotes)
-  
-Google Drive [link](https://drive.google.com/file/d/15nO0765lScyH17q-XvJ068hD7-spne0T/view?usp=sharing) for dataset (ScrappedPostsData.csv)
+
 
 ### Sentiment Analysis: <h3>
 Extra features were added with the help of Sentiment analysis for the title of the post using vaderSentiment analyzer. We get 4 columns neg, neu, pos and compound. These features tell how negative or positive the statement is. These columns were combined to one column, Predited_value, using the compound score. 
@@ -40,8 +39,6 @@ As it is a regression problem, regression models like Linear regression, Decisio
 ### Deployment: <h3>
 The application was deployed on Heroku. The application takes a Redidt post URl as input and the required features are extracted from the URL. The deployed application was tested with different Reddit post URLs. As the accuracy of the model is around 50%, the predictions were a little different from expected. In future work, more data can be used to train the model to get good accuracy.
   
-Link to Deployed Application : https://reddit-post-score.herokuapp.com/
-
 <div align="center">
   <img src="/Images/1.jpg" height="270" width="550"><img src="/Images/2.jpg" height="270" width="550">
 </div>
