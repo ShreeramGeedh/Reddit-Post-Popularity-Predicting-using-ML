@@ -1,4 +1,4 @@
-# Predicting popularity of a Reddit post
+# Predicting popularity of a Reddit post.
 
 <div align="center">
   <img src="/Images/reddit-logo.png" height="100" width="300">
