@@ -5,7 +5,7 @@
 </div>
 
 ### What is Reddit? <h3>
-Reddit is a social sharing website where you could post links, pictures, text and other users can upvote or downvote aparticular post based on if they like the post or not. If the post gets a high upvote score, then the post moves up so that it is visible to evryone. Reddit is a huge site, but it's divided into thousands of smaller communities called subreddits. In this project, the posts from "Popular" subreddit were used to prepare the dataset.
+Reddit is a social sharing website where you could post links, pictures, text and other users can upvote or downvote aparticular post based on if they like the post or not. If the post gets a high upvote score, then the post moves up so that it is visible to evryone. Reddit is a huge site but it's divided into thousands of smaller communities called subreddits. In this project, the posts from "Popular" subreddit were used to prepare the dataset.
 <div align="center">
   <img src="/Images/Upvote_Downvote.png">
 </div>
@@ -66,3 +66,4 @@ pip install vaderSentiment
 ```
 pip install praw
 ```
+
